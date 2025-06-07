@@ -1,0 +1,28 @@
+body {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  height: 100vh;             /* full height of the viewport */
+  margin: 0;
+  background-color: #f0f0f0; /* optional: light background */
+}
+
+#jokeBox {
+  background-color: rgb(138, 150, 150);
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  text-align: left;
+  font-family: sans-serif;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: soft shadow */
+}
+
+body {
+  background-image: url('./view/cat.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
